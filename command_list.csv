@@ -1,0 +1,46 @@
+    1  cd Desktop
+    2  cd HM_10
+    3  history -c && rm ~/.bash_history
+    4  clear && rm ~/.zsh_history
+    5  git config --user name "Lera Vashchenko"
+    6  git config --user.name "Lera Vashchenko"
+    7  clear
+    8  git config --global user.name "Lera Vashchenko"
+    9  git config --global user.email valeriia.1311@gmail.com
+   10  git clone https://github.com/valeriia13112000-blip/HW_10.git
+   11  ls
+   12  cd HW_10
+   13  touch text_ignore.txt
+   14  ls
+   15  git clone https://github.com/valeriia13112000-blip/HW_10.git
+   16  git clone https://github.com/valeriia13112000-blip/hb.git
+   17  ls -a
+   18  nano .gitignore
+   19  git status
+   20  cd Desktop
+   21  cd homework
+   22  clear && rm ~/.zsh_history
+   23  git config --global user.name "Lera Vashchenko"
+   24  git config --global user.email valeriia.1311@gmail.com
+   25  git clone https://github.com/valeriia13112000-blip/HW_10.git
+   26  cd HW_10
+   27  touch text_ignore.txt
+   28  nano .gitignore
+   29  git status
+   30  git add .gitignore
+   31  git commit --m "Add text_ignore.txt to .gitignore"
+   32  touch main_test.txt
+   33  git add.
+   34  git add .
+   35  git commit -m "Add file main_test.txt"
+   36  git checkout -b develop
+   37  touch develop_test.txt
+   38  git add develop_test.txt
+   39   git commit -m "Add file develop_test.txt"
+   40  nano develop_test.txt
+   41  git status
+   42  git add develop_test.txt
+   43  git commit -m "Update file develop_test.txt with text just a small change"\n
+   44  git checkout main
+   45  git merge develop
+   46  git log
